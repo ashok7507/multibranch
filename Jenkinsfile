@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh "mkdir dev-branch"
+                sh "mkdir changed-dir-name"
             }
         }
     }
